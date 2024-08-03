@@ -1,4 +1,4 @@
-package exam.handle;
+package etc.exam.handle;
 
 import java.util.stream.IntStream;
 

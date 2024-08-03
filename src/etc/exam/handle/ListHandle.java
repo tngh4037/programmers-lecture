@@ -1,7 +1,6 @@
-package exam.handle;
+package etc.exam.handle;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class ListHandle {

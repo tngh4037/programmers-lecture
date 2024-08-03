@@ -1,4 +1,4 @@
-package exam.lambda;
+package etc.exam.lambda;
 
 public class LambdaExam1 {
 

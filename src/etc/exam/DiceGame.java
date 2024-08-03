@@ -1,4 +1,4 @@
-package exam;
+package etc.exam;
 
 import java.util.Arrays;
 
