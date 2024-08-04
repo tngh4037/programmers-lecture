@@ -1,4 +1,4 @@
-package basic.b_variable.b_primitive;
+package basic.b_variable.c_primitive;
 
 public class PrimitiveDataTypeExam {
 

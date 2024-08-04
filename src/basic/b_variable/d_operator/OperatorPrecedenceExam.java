@@ -1,4 +1,4 @@
-package basic.b_variable.c_operator;
+package basic.b_variable.d_operator;
 
 // 연산자 우선순위
 public class OperatorPrecedenceExam {

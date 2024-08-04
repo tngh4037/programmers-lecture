@@ -1,4 +1,4 @@
-package basic.b_variable.c_operator;
+package basic.b_variable.d_operator;
 
 public class OperatorExam {
 

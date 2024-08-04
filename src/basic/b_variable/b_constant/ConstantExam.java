@@ -1,4 +1,4 @@
-package basic.b_variable.a_constant;
+package basic.b_variable.b_constant;
 
 public class ConstantExam {
 

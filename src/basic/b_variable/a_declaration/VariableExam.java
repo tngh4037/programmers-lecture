@@ -1,4 +1,4 @@
-package basic.b_variable;
+package basic.b_variable.a_declaration;
 
 public class VariableExam {
 
