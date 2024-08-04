@@ -33,6 +33,15 @@
   - 참고) 이클립스: JDK 를 이용해서 자바를 쉽게 개발할 수 있도록 도와주는 도구
 
 
+- 참고)
+  - JDK 환경변수 설정 이유와 세팅 방법
+    - `https://deftkang.tistory.com/134`
+  - Java ClassPath란
+    - `https://velog.io/@hsgin11/Java-ClassPath%EB%9E%80`
+  - Error: Could not find or load main class
+    - `https://beausty23.tistory.com/3`
+
+
 ---
 
 

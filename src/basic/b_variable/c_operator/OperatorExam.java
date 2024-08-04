@@ -3,7 +3,9 @@ package basic.b_variable.c_operator;
 public class OperatorExam {
 
     public static void main(String[] args) {
+        // ================
         // === 단항 연산 ===
+        // ================
         int a = -5; // -: 부호연산자, 5: 피연산자
         int b = +a;
         int c = -a;
@@ -21,7 +23,9 @@ public class OperatorExam {
         System.out.println(c); // 7
 
 
+        // ================
         // === 산술 연산 ===
+        // ================
         int i = 5;
         int j = 2;
 
@@ -33,7 +37,9 @@ public class OperatorExam {
         System.out.println(i % j);
 
 
+        // ================
         // === 비교 연산 ===
+        // ================
         int x = 10;
         int y = 10;
 
@@ -45,11 +51,43 @@ public class OperatorExam {
         System.out.println(x >= y);
 
 
+        // ================
         // === 대입 연산 ===
+        // ================
         int p;
         p = 2; // 단순 대입
-        System.out.println(p);
+        System.out.println(p); // 2
         p += 5; // 복합 대입 ( p = p + 5 )
-        System.out.println(p);
+        System.out.println(p); // 7
+
+
+        // ================
+        // === 논리 연산 ===
+        // ================
+        System.out.println(true && true); // true
+        System.out.println(true && false); // false
+        System.out.println(false && false); // false
+
+        System.out.println(false || false); // false
+        System.out.println(true || false); // true
+        System.out.println(true || true); // true
+
+        System.out.println(!true); // false
+
+        // ^: 피연산자가 서로 다른 값일 경우만 연산 결과가 true
+        System.out.println(true ^ true); // false
+        System.out.println(true ^ true ^ true); // true
+        System.out.println(false ^ false ^ false); // false
+        System.out.println(false ^ false ^ true); // true
+        System.out.println(true ^ false); // true
+        System.out.println(false ^ true); // true
+
+
+        // ================
+        // === 삼항 연산 ===
+        // ================
+        int b1 = (5 > 4) ? 50 : 40; // 조건식의 연산결과가 true이면, 결과는 피연산자1이고, 조건식의 연산결과가 false이면 결과는 피연산자2가 된다. ( 현재 조건식이 true이므로 b1은 50이 된다. )
+        System.out.println(b1); // 50
+
     }
 }
