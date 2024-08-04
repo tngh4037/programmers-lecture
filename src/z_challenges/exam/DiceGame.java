@@ -1,4 +1,4 @@
-package etc.exam;
+package z_challenges.exam;
 
 import java.util.Arrays;
 

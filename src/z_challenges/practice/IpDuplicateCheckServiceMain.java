@@ -1,4 +1,4 @@
-package etc.practice;
+package z_challenges.practice;
 
 import java.util.List;
 

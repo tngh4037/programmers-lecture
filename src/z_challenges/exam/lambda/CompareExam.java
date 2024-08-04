@@ -1,4 +1,4 @@
-package etc.exam.lambda;
+package z_challenges.exam.lambda;
 
 public class CompareExam {
     public static void main(String[] args) {

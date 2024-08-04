@@ -1,4 +1,4 @@
-package etc.exam.handle;
+package z_challenges.exam.handle;
 
 import java.util.stream.IntStream;
 
