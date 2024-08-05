@@ -50,6 +50,7 @@ public class MyBus5Exam {
 - MyBus5Exam 을 실행해 보도록 하겠습니다. `"MyBus5 run 메소드"` 가 출력된다.
 - `메소드를 오버라이드 하면, 항상 자식클래스에서 정의된 메소드가 호출된다.`
 - `오버라이딩 한다고 해서 부모의 메소드가 사라지는 것은 아니다.`
+- `오버라이딩(overriding) 할때는 부모의 메서드 보다 넓은 범위의 접근제어자를 지정해야 한다.`
 - super 키워드를 이용하면, 부모의 메소드를 호출할 수 있다.
 ```java
 public class MyBus5 extends MyCar5 {
