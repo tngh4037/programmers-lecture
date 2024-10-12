@@ -6,11 +6,13 @@ import java.time.LocalDate;
 public class IpDuplicateCheckService {
 
     private final int LIMIT_COUNT = 3;
+    private final int BUFFER_SIZE = 8192;
 
     public synchronized boolean checkIp(String ipAddress) {
         BufferedReader br = null;
 
         try {
+        //    br = new BufferedReader(new FileReader(createFile()), BUFFER_SIZE); // default: 8192
             br = new BufferedReader(new FileReader(createFile()));
 
             String line = null;
@@ -32,12 +34,12 @@ public class IpDuplicateCheckService {
 
     public synchronized boolean saveIp(String ipAddress) {
         String fileName = createFile();
-        BufferedReader br = null;
-        FileWriter bw = null;
 
+        BufferedReader br = null;
         StringBuilder sb = new StringBuilder();
 
         try {
+        //    br = new BufferedReader(new FileReader(fileName), BUFFER_SIZE);
             br = new BufferedReader(new FileReader(fileName));
 
             String line = null;
@@ -75,8 +77,11 @@ public class IpDuplicateCheckService {
            }
         }
 
+        BufferedWriter bw = null;
+
         try {
-            bw = new FileWriter(fileName);
+          //  bw = new BufferedWriter(new FileWriter(fileName), BUFFER_SIZE);
+            bw = new BufferedWriter(new FileWriter(fileName));
             bw.write(sb.toString());
         } catch (IOException e) {
             throw new RuntimeException(e);
